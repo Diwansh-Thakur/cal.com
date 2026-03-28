@@ -1,6 +1,5 @@
 generator client {
   provider = "prisma-client-js"
-  previewFeatures = ["driverAdapters"]
 }
 
 datasource db {
@@ -33,7 +32,7 @@ model EventType {
   title           String
   slug            String    @unique
   duration        Int       
-  bufferTime      Int       @default(0)
+  bufferTime      Int       @default(0) // New feature
   description     String?
   customQuestions String?   
   isActive        Boolean   @default(true)
