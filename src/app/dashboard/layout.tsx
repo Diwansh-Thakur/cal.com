@@ -49,7 +49,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         </div>
         
         <div className="p-4 border-t border-border space-y-4">
-           <Link href="/30-min-meeting" target="_blank" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-medium">
+           <Link href="/" target="_blank" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-medium">
              <ExternalLink className="w-4 h-4" />
              View public page
            </Link>
